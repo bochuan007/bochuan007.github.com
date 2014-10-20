@@ -3,17 +3,29 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>大概说说hexo+github+godaddy吧 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/">
+  <meta name="description" content="既然毕业设计是给hexo做个后台，那总得学学怎么玩hexo吧，网上教程都是hexo+github建站的，照着折腾了几天总算是勉强会用hexo了，现在就来总结一下用hexo建站的过程。
+本人搭环境用的是vmware9+UbuntuKylin 14.04 LTS,说起来下ubuntu的时候看到捐款居然以为要买key，98大洋就这么离我而去了。。。好桑心。
+hexo由台湾大学生编写，是一个基于node.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="大概说说hexo+github+godaddy吧">
+<meta property="og:url" content="http://yoursite.com/2014/10/18/大概说说hexo-github-godaddy吧/">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
+<meta property="og:description" content="既然毕业设计是给hexo做个后台，那总得学学怎么玩hexo吧，网上教程都是hexo+github建站的，照着折腾了几天总算是勉强会用hexo了，现在就来总结一下用hexo建站的过程。
+本人搭环境用的是vmware9+UbuntuKylin 14.04 LTS,说起来下ubuntu的时候看到捐款居然以为要买key，98大洋就这么离我而去了。。。好桑心。
+hexo由台湾大学生编写，是一个基于node.">
+<meta property="og:image" content="/image/nodelogo.jpg">
+<meta property="og:image" content="/image/githublogo.jpg">
+<meta property="og:image" content="/image/hexologo.jpg">
+<meta property="og:image" content="/image/hexoinit.png">
+<meta property="og:image" content="/image/hexogenerate.png">
+<meta property="og:image" content="/image/hexoserver.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+<meta name="twitter:title" content="大概说说hexo+github+godaddy吧">
+<meta name="twitter:description" content="既然毕业设计是给hexo做个后台，那总得学学怎么玩hexo吧，网上教程都是hexo+github建站的，照着折腾了几天总算是勉强会用hexo了，现在就来总结一下用hexo建站的过程。
+本人搭环境用的是vmware9+UbuntuKylin 14.04 LTS,说起来下ubuntu的时候看到捐款居然以为要买key，98大洋就这么离我而去了。。。好桑心。
+hexo由台湾大学生编写，是一个基于node.">
 
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -61,113 +73,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/20/hello-world/" class="article-date">
-  <time datetime="2014-10-20T09:19:58.000Z" itemprop="datePublished">Oct 20 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/20/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/20/hello-world/" data-id="o8ab7kmw3zpm9sqy" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-将github的空间绑定到狗爹购买的域名上" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/" class="article-date">
-  <time datetime="2014-10-18T06:18:13.000Z" itemprop="datePublished">Oct 18 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/">将github的空间绑定到狗爹购买的域名上</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>上一篇文章写了hexo博客的环境搭建以及github的提交，github在你生成仓库之后就分配给你了一个二级域名username.github.io，不过怎么说呢。。。用这种统一的url怎么装逼呢对吧，还是去godaddy买个.com或者.me的域名来装高端吧。（<strong>注意：千万别买.info，垃圾站过多不好被收录而且续费相当的贵</strong>)</p>
-<p>狗爹上.com和.me都大概10刀左右一年，不过可以搜优惠码，用优惠码.com的域名9刀就搞定了，还是很便宜的。不过狗爹只有欢迎界面有几句中文，e文不好的同学请自备牛津大砖头或者有道词典完成订单填写和支付过程。（<strong>注意，购买域名时请使用windows系统，国内网银支持linux系统的完全没有</strong>)</p>
-<p>买到域名之后，进入账户，选择manage domains或者在domains下拉列表里选则all doomains。</p>
-<p><img src="/image/alldomains.png" alt=""></p>
-<p>接着在你新购买的域名旁的下拉菜单里选择Set Nameservers选择域名服务器</p>
-<p><img src="/image/godaddymenu.png" alt=""></p>
-<p>域名服务器设置里有两种选项Standard（使用狗爹自己的域名服务器，不建议使用，我第一次买了域名3个小时不到就被伟大的墙给墙了）、Custom（使用自己选择的域名服务器，建议使用这个)</p>
-<p><img src="/image/nameserver.png" alt=""></p>
-<p>nameserver设置里输入国内的域名服务提供的服务器吧，我用的是dnspod的服务器，dnspod最大的优势是免费，如果有土豪不屑于免费dns服务的话请随便找一家，并在这里填上该域名服务提供商的服务器名字。</p>
-<p>到此狗爹的配置就完成了，接下来进入域名服务提供商的管理界面，我会介绍dnspod的设置方法，不过其实域名解析这套都大同小异,会了一个就基本都学会了。</p>
-<p>在<www.dnspod.cn>注册账户，登陆后添加域名，告诉dnspod我们把哪个域名的域名服务器设置给它了，接着点击域名进入域名解析管理，添加两个A类型的记录host分别是@和www，也就是把你的域名和www.你的域名都指向github的ip，githup的ip可以通过windows的ping命令得到，ping下username.github.io，是不是看到出现一个ip了？就是它，复制粘贴到新加两条记录的纪录值里，over。</www.dnspod.cn></p>
-<p>最后配置github，告诉它我们把哪个域名指向了我们的博客，相当简单，再网站放写的文章的source目录下新建一个CNAME文件，里面的内容就是我们买的域名，hexo generate再deploy到github上，完事。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/18/将github的空间绑定到狗爹购买的域名上/" data-id="44de3bg6hhp2qwu2" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dns/">dns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dnspod/">dnspod</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/domain/">domain</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/godaddy/">godaddy</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/greatfirewall/">greatfirewall</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-大概说说hexo-github-godaddy吧" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-大概说说hexo-github-godaddy吧" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2014/10/18/大概说说hexo-github-godaddy吧/" class="article-date">
   <time datetime="2014-10-17T20:18:00.000Z" itemprop="datePublished">Oct 18 2014</time>
@@ -180,8 +86,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/18/大概说说hexo-github-godaddy吧/">大概说说hexo+github+godaddy吧</a>
+    <h1 class="article-title" itemprop="name">
+      大概说说hexo+github+godaddy吧
     </h1>
   
 
@@ -266,11 +172,24 @@ git config --global <span class="literal">user</span>.email <span class="string"
     </footer>
   </div>
   
+    
+<nav id="article-nav">
+  
+    <a href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          将github的空间绑定到狗爹购买的域名上
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
 </article>
 
-
-  
-  
 </section>
         
           <aside id="sidebar">
