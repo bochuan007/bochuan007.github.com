@@ -1,563 +1,306 @@
-<!DOCTYPE html>
-<html>
+
+ <!DOCTYPE HTML>
+<html >
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
-
-  
+    <title>Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="John Doe">
+    
+    
+    
+    
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-
-  
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 
 </head>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Hexo" title="Hexo"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Hexo">Hexo</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main">
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/10/20/PostgreSQL的特性/" title="PostgreSQL的特性" itemprop="url">
+  
+    <h1 itemprop="name">PostgreSQL的特性</h1>
+    
+     
+           <p itemprop="description" >PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、</p>
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-PostgreSQL的特性" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/20/PostgreSQL的特性/" class="article-date">
-  <time datetime="2014-10-20T11:49:39.000Z" itemprop="datePublished">Oct 20 2014</time>
-</a>
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/20/PostgreSQL的特性/">PostgreSQL的特性</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良好的可扩展性，对并发用户管理具有自适应性。现在已经出现具有管理超过4万亿字节数据能力的实用版本产品。</p>
-<p>开放特性：PostgreSQL内置了丰富的数据类型，如任意精度的数值、无限制长度的文本、几何图元、IP地址、数组等；同时还允许用户定义基于正规SQL类型的新类型，让数据库自身理解复杂数据，自定义类型中还可以包含继承关系。用户可以为数据库内几乎所有的对象定义新的类型，如索引、操作符（可重载现有操作符）、聚集函数、数据域、数据类型转换、会话（编码转换）等。</p>
-<p>可编程性：PostgreSQL同样拥有大量的编程接口供用户开发使用，如ODBC、JDBC（Java）、Libpq（C/C++）等。</p>
-<p>可定制性：PostgreSQL拥有广泛的编程语言支持来实现函数功能，包括内置的PL/pgSQL过程语言，PL/Perl、plPHP、PL/Python、PL/Ruby、PL/Tcl等脚本语言，以及Java、C/C++等高级编程语言。函数的输出是一系列行类型的集合，可以在查询中当做表来使用，函数也可以被定义成以创建者或者调用者的身份运行。在其他的数据库产品中，函数也会被称为“存储过程”。</p>
-<p>索引手段：用户可以自定义索引方法或者使用内置B-Tree索引、Hash表索引、GiST索引、GIN索引。GiST索引不是某种特定的索引类型，而是一种通用索引基础结构，可以在这种结构上实现很多不同的索引策略。PostgreSQL同时还支持如下功能：反向索引检索、表达式索引、部分索引、位图索引扫描。</p>
-<p>多种身份认证方式：PostgreSQL中可以使用数据库用户/角色、操作系统、PAM、Kerberos等方式，根据主机配置文件（pg_hba.conf）中的设置执行对应的身份认证。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/20/PostgreSQL的特性/" data-id="pf7br6otiq961ywo" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/opensource/">opensource</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/psql/">psql</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-多版本并发控制MVCC" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/20/多版本并发控制MVCC/" class="article-date">
-  <time datetime="2014-10-20T11:33:04.000Z" itemprop="datePublished">Oct 20 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/20/多版本并发控制MVCC/">多版本并发控制MVCC</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>大多数的MySQL事务型存储引擎，如InnoDB，Falcon以及PBXT都不使用一种简单的行锁机制。事实上，他们都和另外一种用来增加并发性的被称为“多版本并发控制（MVCC）”的机制来一起使用。MVCC不只使用在MySQL中，Oracle、PostgreSQL，以及其他一些数据库系统也同样使用它。</p>
-<p>你可将MVCC看成行级别锁的一种妥协，它在许多情况下避免了使用锁，同时可以提供更小的开销。根据实现的不同，它可以允许非阻塞式读，在写操作进行时只锁定必要的记录。</p>
-<p>MVCC会保存某个时间点上的数据快照。这意味着事务可以看到一个一致的数据视图，不管他们需要跑多久。这同时也意味着不同的事务在同一个时间点看到的同一个表的数据可能是不同的。如果你从来没有过种体验的话，可能理解起来比较抽象，但是随着慢慢地熟悉这种理解将会很容易。</p>
-<p>各个存储引擎对于MVCC的实现各不相同。这些不同中的一些包括乐观和悲观并发控制。我们将通过一个简化的InnoDB版本的行为来展示MVCC工作的一个侧面。</p>
-<p>InnoDB：通过为每一行记录添加两个额外的隐藏的值来实现MVCC，这两个值一个记录这行数据何时被创建，另外一个记录这行数据何时过期（或者被删除）。但是InnoDB并不存储这些事件发生时的实际时间，相反它只存储这些事件发生时的系统版本号。这是一个随着事务的创建而不断增长的数字。每个事务在事务开始时会记录它自己的系统版本号。每个查询必须去检查每行数据的版本号与事务的版本号是否相同。让我们来看看当隔离级别是REPEATABLE READ时这种策略是如何应用到特定的操作的：</p>
-<p>SELECT InnoDB必须每行数据来保证它符合两个条件：</p>
-<ol>
-<li><p>InnoDB必须找到一个行的版本，它至少要和事务的版本一样老(也即它的版本号不大于事务的版本号)。这保证了不管是事务开始之前，或者事务创建时，或者修改了这行数据的时候，这行数据是存在的。</p>
-</li>
-<li><p>这行数据的删除版本必须是未定义的或者比事务版本要大。这可以保证在事务开始之前这行数据没有被删除。<br>符合这两个条件的行可能会被当作查询结果而返回。</p>
-</li>
-</ol>
-<p>INSERT：InnoDB为这个新行记录当前的系统版本号。</p>
-<p>DELETE：InnoDB将当前的系统版本号设置为这一行的删除ID。</p>
-<p>UPDATE：InnoDB会写一个这行数据的新拷贝，这个拷贝的版本为当前的系统版本号。它同时也会将这个版本号写到旧行的删除版本里。</p>
-<p>这种额外的记录所带来的结果就是对于大多数查询来说根本就不需要获得一个锁。他们只是简单地以最快的速度来读取数据，确保只选择符合条件的行。这个方案的缺点在于存储引擎必须为每一行存储更多的数据，做更多的检查工作，处理更多的善后操作。</p>
-<p>MVCC只工作在REPEATABLE READ和READ COMMITED隔离级别下。READ UNCOMMITED不是MVCC兼容的，因为查询不能找到适合他们事务版本的行版本；它们每次都只能读到最新的版本。SERIABLABLE也不与MVCC兼容，因为读操作会锁定他们返回的每一行数据[1] 。</p>
-<p>通过使用MVCC（Multi-Version Concurrency Control）算法自动提供并发控制。MVCC维持一个数据的多个版本使读写操作没有冲突。也就是说数据元素X上的每一个写操作产生X的一个新版本，GBase 8m为X的每一个读操作选择一个版本。由于消除了数据库中数据元素读和写操作的冲突，GBase 8m得到优化，具有更好的性能。特别是对于数据库读和写两种方法，他们不用等待其他同时进行的相同数据写和读的完成。在并发事务中，数据库写只等待正在对同一行数据进行更新的写，这是现有的行级锁的弱点。同时MVCC回收不需要的和长时间不用的内存，防止内存空间的浪费。MVCC优化了数据库并发系统，使系统在有大量并发用户时得到最高的性能，并且可以不用关闭服务器就直接进行热备份。</p>
-<p>比锁定的优势</p>
-<p>使用MVCC多版本并发控制比锁定模型的主要优点是在MVCC里， 对检索（读）数据的锁要求与写数据的锁要求不冲突， 所以读不会阻塞写，而写也从不阻塞读。</p>
-<p>在数据库里也有表和行级别的锁定机制， 用于给那些无法轻松接受 MVCC 行为的应用。 不过，恰当地使用 MVCC 总会提供比锁更好地性能。</p>
-<p>GBase8的特性<br>编辑</p>
-<p>在 GBase 中的查询功能通过 MVCC 提供的一致性非锁读（在下文我们简称为一致性读），就是提供通过数据库在一个时间点上的快照来实现信息的查询。查询只是对那些在这个时间点之前提交的事务所做的变更，而并不关注在时间点之后的变更或未提交的事务。当然，若是该事务自身进行的变更，对于查询是可见的。</p>
-<p>GBase 的默认级别是 READ COMMITTED ，在该隔离级别下事务中的查询语句，使用当前时间戳进行一致性读，每次查询的时间戳是不相同的。</p>
-<p>但对 REPEATABLE READ 隔离级别，在同一个事务中的所有一致性读，使用的时间戳均是第一个查询的时间戳，这样读取的也就是由该事务第一次读建立起来的数据快照。用户只有通过提交当前事务，并发出一个新的查询才会得到新的数据快照。</p>
-<p>一致性读是 GBase 在 READ COMMITTED 和 REPEATABLE READ 隔离级别下，处理 SELECT 语句中使用的默认模式。一致性读在它读的数据上不设置任何锁，因此在一致性读某个表的同时，其它用户均可以修改这个表。</p>
-<p>注意在 DROP TABLE 和 ALTER TABLE 运作时，一致性读无效 。一致性读在 DROP TABLE 上无效是因为 GBase 不能使用已经 drop 的表，该表已经删除。一致性读在 ALTER TABLE 上无效是因为 GBase 会在事务内，重新创建一个新表并从旧表向新表插入记录。这样当用户再次执行一致性读时，在新表中将看不到任何行，因为在新表中的数据都在第一次一致性读的快照之外。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/20/多版本并发控制MVCC/" data-id="8xykd68yr0k4qnob" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-sql起源" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/20/sql起源/" class="article-date">
-  <time datetime="2014-10-20T11:19:33.000Z" itemprop="datePublished">Oct 20 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/20/sql起源/">sql起源</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>“SQL” 的名称是 Structured Query Language（结构化查询语言）的缩写。 在 1974 年，Donald Chamberlin 和其他人在 IBM 的研究所定义了语言 SEQUEL （Structured English Query Language）（结构化英语查询语言）。 这种语言在 1974-75 年首先在一种叫 SEUEL-XRM 的 IBM 的原型里面实现。 到了1976-77 年，定义了一种叫 SEQUEL/2 的 SEQUEL 改进版， 并且名称也因此改成 SQL。 </p>
-<p>在 1977 年，IBM 开发了一种新的叫 System R 的原型语言。 System R 实现了 SEQUEL/2 （现在的 SQL）的很大一部分子集，并且在项目过程中对 SQL 做了许多修改。 System R 被安装到了许多用户节点上， 包括 IBM 的节点和许多经过选择的客户节点上。 多亏了在 System R 那些用户节点上的成功，IBM 开始开发基于 System R 技术的 SQL 语言的商业产品。 </p>
-<p>再过了一年，IBM 和许多其他提供商宣布了许多 SQL 产品，例如 SQL/DS（IBM）， DB2（IBM）， ORACLE（Oracle Corp.）， DG/SQL（Data General Corp.）， 和 SYBASE（Sybase Inc.）． </p>
-<p>SQL 现在还是一个官方标准。在 1982 年，美国国家标准局 （ANSI）公布了数据库委员会宪章（DatabaseCommittee）X3H2， 建议发展一种标准的关系语言。 这个建议在 1986 年被批准并且认为实际上就是 IBM 版本的 SQL。在 1987 年，这个ANSI 标准也被国际标准化组织 （ISO）接受为国际标准。这个最初的 SQL 版本的标准经常非正式的被称为 “SQL/86”． 到了 1989 年，对那个最初的标准进行了扩展， 并且这个新的标准被经常地非正式的称为”SQL/89”。 同样在 1989 年，一个相关的标准，发展了称之为 数据库语言嵌入SQL （Database LanguageEmbedded SQL） （ESQL）。 </p>
-<p>ISO 和 ANSI 委员会已经在一个大大地扩展了最初的标准的新版本的定义上工作了好几年， 常被非正式的称之为 SQL2 和 SQL/92 。这个版本成为一个批准了的标准 - “International Standard ISO/IEC 9075:1992, Database Language SQL - 在1992 年晚些时候。 SQL/92 通常是人们说 “SQL标准” 时所指的版本。在 Date and Darwen, 1997里有 SQL/92 详细的描述。</p>
-<p>SQL99是数据库的一个ANSI/ISO标准。这个标准的前身是SQL92 ANSI/ISO标准，而SQL92之前还有一个SQL89 ANSI/ISO标准。它定义了一种语言（SQL）以及数据库的行为（事务、隔离级别等）。你知道许多商业数据库至少在某种程度上是符合SQL99的吗？不过，这对于查询和应用的可移植性没有多大的意义，这一点你也清楚吗？</p>
-<p>SQL92标准有4个层次：</p>
-<p>q 入门级（Entry level）。这是大多数开发商符合的级别。这一级只是对前一个标准SQL89稍做修改。所有数据库开发商都不会有更高的级别，实际上，美国国家标准和技术协会NIST（National Institute of Standards and Technology，这是一家专门检验SQL合规性的机构）除了验证入门级外，甚至不做其他的验证。Oracle 7.0于1993年通过了NIST的SQL92入门级合规性验证，那时我也是小组中的一个成员。如果一个数据库符合入门级，它的特性集则是Oracle 7.0的一个功能子集。</p>
-<ul>
-<li>q 过渡级。这一级在特性集方面大致介于入门级和中间级之间。</li>
-<li>q 中间级。这一级增加了许多特性，包括（以下所列并不完整）：</li>
-<li>n 动态SQL</li>
-<li>n 级联DELETE以保证引用完整性</li>
-<li>n DATE和TIME数据类型</li>
-<li>n 域</li>
-<li>n 变长字符串</li>
-<li>n CASE表达式</li>
-<li>n 数据类型之间的CAST函数</li>
-<li>q 完备级。增加了以下特性（同样，这个列表也不完整）：</li>
-<li>n 连接管理</li>
-<li>n BIT串数据类型</li>
-<li>n 可延迟的完整性约束</li>
-<li>n FROM子句中的导出表</li>
-<li>n CHECK子句中的子查询</li>
-<li>n 临时表<br>入门级标准不包括诸如外联结（outer join）、新的内联结（inner join）语法等特性。</li>
-</ul>
-<p>过渡级则指定了外联结语法和内联结语法。</p>
-<p>中间级增加了更多的特性，当然，完备级就是SQL92全部。有关SQL92的大多数书都没有区别这些级别，这就会带来混淆。这些书只是说明了一个完整实现SQL92的理论数据库会是什么样子。所以无论你拿起哪一本书，都无法将书中所学直接应用到任何SQL92数据库上。关键是，SQL92最多只达到入门级，如果你使用了中间级或更高级里的特性，就存在无法“移植”应用的风险。</p>
-<p>SQL99只定义了两级一致性：核心（core）一致性和增强（enhanced）一致性。SQL99力图远远超越传统的“SQL”，并引入了一些对象—关系构造（数组、集合等）。它包括SQL MM（多媒体，multimedia）类型、对象—关系类型等。还没有哪个开发商的数据库经认证符合SQL99核心级或增强级，实际上，据我所知，甚至没有哪个开发商声称他们的产品完全达到了某级一致性。</p>
-<p>对于不同的数据库来说，SQL语法可能存在差异，实现有所不同，同一个查询在不同数据库中的性能也不一样，不仅如此，还存在并发控制、隔离级别、查询一致性等问题。我们将在第7章详细讨论这些问题，并介绍不同数据库的差异对你会有什么影响。</p>
-<p>SQL92/SQL99试图对事务应如何工作以及隔离级别如何实现给出一个明确的定义，但最终，不同的数据库还是有不同的结果。这都是具体实现所致。在一个数据库中，某个应用可能会死锁并完全阻塞。但在另一个数据库中，同样是这个应用，这些问题却有可能不会发生，应用能平稳地运行。在一个数据库中，你可能利用了阻塞（物理串行化），但在另一个数据库上部署时，由于这个数据库不会阻塞，你就会得到错误的答案。要将一个应用部署在另一个数据库上，需要花费大量的精力，付出艰辛的劳动，即使你100%地遵循标准也不例外。</p>
-<p>关键是，不要害怕使用开发商特有的特性，毕竟，你为这些特性花了钱。每个数据库都有自己的一套“技巧”，在每个数据库中总能找到一种完成操作的好办法。要使用最适合当前数据库的做法，移植到其他数据库时再重新实现。要使用合适的编程技术，从而与这些修改隔离，我把这称为防御式编程（defensive programming）。</p>
-<p>时态数据查询语言[编辑]<br>目前，时态数据查询语言主要由下述三种类型。</p>
-<p>TempSQL[编辑]</p>
-<p>TempSQL是在1985年由S.Gadia和S.Nair提出，作为一种类SQL的时态数据库查询语言，TempSQL引入了双时态机制，数据库可以对数据本身历史（有效时间）、对数据进行插入、删除和更新等的历史（事务时间）、数据库和用户出错的历史等进行管理。TempSQL保持时态数据与静态数据的无缝连接，而将快照数据看做是时间标签为[now,now]的一个特例。 在TempSQL中，元组中主键属性（例如学生信息元组中的学号属性）不能随时间变化，而非主键属性（例如学生元组中“住址”、“年龄”和“联系方式”等属性）在不同时间内可以有不同取值。</p>
-<p>TQuel[编辑]</p>
-<p>TQuel是在1985年由R.Snodgrass提出，是一种基于双时态的数据库查询语言。作为Quel（早期的一种非时态数据库查询语言）的时态扩展扩展（同时支持有效时间和事务时间管理，并且认为两者是相互独立和彼此正交），TQuel保持了Quel的基本风格，同时引进了各种基本时态关键词，例如as-of，overlap、first，last和endof等</p>
-<p>TSQL2[编辑]</p>
-<p>TSQL2是第一个尝试采用规范标准的时态数据查询语言，可以看做是SQL-92标准的时态扩充。TSQL2自1994年开始，R.Snodgrass等与ASNI和ISSQL3委员会研究合作，提出了SQL3的时态部分SQL/Temporal，其目标就是将TSQL2作为SQL/Temporal的标准。TSQL2是时态数据库标准化过程中重要语言。TSQL2时态关系分为如下6类：</p>
-<p>快照关系：其特点是没有时间标签。</p>
-<p>有效时间状态关系，其说明语句为AS valid[state]。其中state是默认值，选和不选具有同样效果，即表示相应关系是有效时间状态关系。</p>
-<p>有效时间事务关系，其说明语句为AS VALID EVENT，表示事件发生在某一时刻，而此时有效时间为时刻集合。<br>事务时间关系 其表示语句为AS TRANSACTION，说明该关系中只具有事务时间。</p>
-<p>双时态状态关系 其说明语句为as valid[state] and transaction，其中有效时间为状态发生保持的时间期间。</p>
-<p>双时态事件关系 其说明语句为as valid event and TRANSACTION。和双时态状态关系不同，其中有效时间描述的是关系表示的事件发生时刻的集合。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/20/sql起源/" data-id="gt9jff8jun8ehsa4" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL2/">SQL2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL99/">SQL99</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql3/">sql3</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql92/">sql92</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/20/hello-world/" class="article-date">
-  <time datetime="2014-10-20T09:19:58.000Z" itemprop="datePublished">Oct 20 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/20/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/20/hello-world/" data-id="44y87isewrddxd8v" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-将github的空间绑定到狗爹购买的域名上" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/" class="article-date">
-  <time datetime="2014-10-18T06:18:13.000Z" itemprop="datePublished">Oct 18 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/">将github的空间绑定到狗爹购买的域名上</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>上一篇文章写了hexo博客的环境搭建以及github的提交，github在你生成仓库之后就分配给你了一个二级域名username.github.io，不过怎么说呢。。。用这种统一的url怎么装逼呢对吧，还是去godaddy买个.com或者.me的域名来装高端吧。（<strong>注意：千万别买.info，垃圾站过多不好被收录而且续费相当的贵</strong>)</p>
-<p>狗爹上.com和.me都大概10刀左右一年，不过可以搜优惠码，用优惠码.com的域名9刀就搞定了，还是很便宜的。不过狗爹只有欢迎界面有几句中文，e文不好的同学请自备牛津大砖头或者有道词典完成订单填写和支付过程。（<strong>注意，购买域名时请使用windows系统，国内网银支持linux系统的完全没有</strong>)</p>
-<p>买到域名之后，进入账户，选择manage domains或者在domains下拉列表里选则all doomains。</p>
-<p><img src="/image/alldomains.png" alt=""></p>
-<p>接着在你新购买的域名旁的下拉菜单里选择Set Nameservers选择域名服务器</p>
-<p><img src="/image/godaddymenu.png" alt=""></p>
-<p>域名服务器设置里有两种选项Standard（使用狗爹自己的域名服务器，不建议使用，我第一次买了域名3个小时不到就被伟大的墙给墙了）、Custom（使用自己选择的域名服务器，建议使用这个)</p>
-<p><img src="/image/nameserver.png" alt=""></p>
-<p>nameserver设置里输入国内的域名服务提供的服务器吧，我用的是dnspod的服务器，dnspod最大的优势是免费，如果有土豪不屑于免费dns服务的话请随便找一家，并在这里填上该域名服务提供商的服务器名字。</p>
-<p>到此狗爹的配置就完成了，接下来进入域名服务提供商的管理界面，我会介绍dnspod的设置方法，不过其实域名解析这套都大同小异,会了一个就基本都学会了。</p>
-<p>在<www.dnspod.cn>注册账户，登陆后添加域名，告诉dnspod我们把哪个域名的域名服务器设置给它了，接着点击域名进入域名解析管理，添加两个A类型的记录host分别是@和www，也就是把你的域名和www.你的域名都指向github的ip，githup的ip可以通过windows的ping命令得到，ping下username.github.io，是不是看到出现一个ip了？就是它，复制粘贴到新加两条记录的纪录值里，over。</www.dnspod.cn></p>
-<p>最后配置github，告诉它我们把哪个域名指向了我们的博客，相当简单，再网站放写的文章的source目录下新建一个CNAME文件，里面的内容就是我们买的域名，hexo generate再deploy到github上，完事。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/18/将github的空间绑定到狗爹购买的域名上/" data-id="sxs7v3hfi79scniw" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dns/">dns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dnspod/">dnspod</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/domain/">domain</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/godaddy/">godaddy</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/greatfirewall/">greatfirewall</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-大概说说hexo-github-godaddy吧" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/18/大概说说hexo-github-godaddy吧/" class="article-date">
-  <time datetime="2014-10-17T20:18:00.000Z" itemprop="datePublished">Oct 18 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/18/大概说说hexo-github-godaddy吧/">大概说说hexo+github+godaddy吧</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>既然毕业设计是给hexo做个后台，那总得学学怎么玩hexo吧，网上教程都是hexo+github建站的，照着折腾了几天总算是勉强会用hexo了，现在就来总结一下用hexo建站的过程。</p>
-<p>本人搭环境用的是vmware9+UbuntuKylin 14.04 LTS,说起来下ubuntu的时候看到捐款居然以为要买key，98大洋就这么离我而去了。。。好桑心。</p>
-<p>hexo由台湾大学生编写，是一个基于node.js的静态博客程序。</p>
-<p>hexo官网上有关于搭建hexo网站的详细文档，详见<hexo.io docs=""></hexo.io></p>
-<p>那么为了搭建hexo平台，首先我们就要安装node.js。ubuntu下的安装命令如下：</p>
-<p><img src="/image/nodelogo.jpg" alt=""></p>
-<pre><code>apt-<span class="keyword">get</span> install node.js
-</code></pre><p>既然目标是deploy到<a href="https://github.com" target="_blank" rel="external">github</a>上，那顺便把git也安装了吧。安装git的命令是：</p>
-<p><img src="/image/githublogo.jpg" alt=""></p>
-<pre><code>apt-<span class="keyword">get</span> install git
-</code></pre><p>最后就是准备工作的最后一步了，安装hexo,这次的安装命令稍有不同：</p>
-<p><img src="/image/hexologo.jpg" alt=""></p>
-<pre><code>apt-get <span class="operator"><span class="keyword">install</span> npm  
-npm <span class="keyword">install</span> hexo -g</span>
-</code></pre><p>ok，准备工作都做好了，来试试hexo是不是准备好工作了吧，键入命令：</p>
-<pre><code>hexo <span class="keyword">version</span>  
-</code></pre><p>或者</p>
-<pre><code>hexo <span class="built_in">help</span>
-</code></pre><p>version命令会显示hexo以及系统环境的版本，而help会显示hexo的帮助菜单</p>
-<p>确定hexo正确安装后就可以搭建自己的blog了，使用命令</p>
-<pre><code>hexo <span class="keyword">init</span> path
-</code></pre><p>效果图如下<img src="/image/hexoinit.png" alt=""></p>
-<p>在path这个路径建立一个hexo的默认文件夹，使用cd命令进入path并输入</p>
-<pre><code>npm <span class="operator"><span class="keyword">install</span>
-hexo generate</span>
-</code></pre><p><img src="/image/hexogenerate.png" alt=""></p>
-<p>这样就会在path下生成一个public文件夹，这就是根据默认配置生成的一个hexo框架的静态网站，着急看效果的同学这时候就可以用命令</p>
-<pre><code>hexo <span class="keyword">server</span>
-</code></pre><p><img src="/image/hexoserver.png" alt=""></p>
-<p>在本地的4000端口试运行一下自己的新网站了 </p>
-<p>本地写hexo文章的详细介绍请看hexo官网文档中BASIC USAGE段落，这里就不详细介绍了。<br>本地生成hexo的网站后，总不能就自己本机看着玩吧，那接下来就该把网站发布到因特网上了，请先再github上申请个账户，假定用户名是username。</p>
-<p>请在repositories下新建一个仓库，当然，github给了我们300m的免费空间，静态的小博客就不用担心钱的问题了，但是，请注意！！！</p>
-<p>仓库的名字请使用<strong>username.github.com</strong>这样的格式，原因我也不太清楚，但是请一定要照这个格式建立仓库！</p>
-<p>接下来就是设置git以便上传网站到github了，在注册时github要求你填写用户名、email和密码对吧，根据用户名和email，github就能知道提交网站的是谁以及应该把得到的文件放在什么空间了。设置git的方法是：</p>
-<pre><code>git config --global <span class="literal">user</span>.name <span class="string">"your username"</span>
-
-git config --global <span class="literal">user</span>.email <span class="string">"your email"</span>
-</code></pre><p>提交网站有两种方式，一种是通过HTTPS，另一种是通过SSH，本文只介绍通过SSH提交（我才不告诉你们不介绍HTTPS是因为我都没玩过呢）</p>
-<p>1.首先使用命令<br>    ls -al ~/.ssh<br>查看在你的机器上存在的所有密钥文件（其实没啥用，反正都要再新建的）</p>
-<p>2.接下来用你注册时用的email为参数创建新的密钥文件<br>    ssh-keygen -t rsa -C “your email”<br>然后就是一路enter，知道看到your ×××××× hasbeen saved in <strong>somewhere</strong> </p>
-<p>要记住这个路径哦，不然找不到自己的密钥对就只有重新生成了</p>
-<p>3.将新的密钥加入ssh-agent，命令是：<br>    eval “$(ssh-agent -s)”</p>
-<pre><code>ssh-add path 
-
-<span class="preprocessor">#记得这里的path是私钥的path哦，不要把公钥也就是后缀名是.pub的那个文件加进去了。</span>
-</code></pre><p>4.将公钥交给github</p>
-<p>打开你的公钥文件，随便什么文本编辑器都ok，全选，复制。</p>
-<p>登陆github，进入配置=&gt;SSH Keys=&gt;Add SSH key</p>
-<p>把公钥文件里那一坨全粘贴了后点击Add key，你的公钥就以及提交给github了，而且你还可以给你的公钥起个名字，这名字就随便咯，想个跟你用这套密钥的机器有关的名字啥的好记就好了。</p>
-<p>5.最后来试试配置的正确不</p>
-<p>输入命令<br>    ssh -T git@github.com</p>
-<p>如果出现<strong>Hi username! You’’ve successfully authenticated, but GitHub does not provide shell access.</strong>这样的提示的话就表示ssh配置成功了哦！！！</p>
-<p>如果出现了奇怪的信息，请参照<a href="https://help.github.com/articles/error-agent-admitted-failure-to-sign/" target="_blank" rel="external">https://help.github.com/articles/error-agent-admitted-failure-to-sign/</a></p>
-<p>6.ssh配置好后，请进入您本地生成的静态网站中，修改网站根目录下的<strong>_config.yml</strong>文件将# deployment相关的信息修改为</p>
-<pre><code><span class="preprocessor"># Deployment</span>
-<span class="preprocessor">## Docs: http://hexo.io/docs/deployment.html</span>
-<span class="title">deploy</span>:
-  <span class="typedef"><span class="keyword">type</span>: github</span>
-  repository: git@github.com:username/username.github.com.git
-  branch: master
-</code></pre><p>并再根目录下运行命令</p>
-<pre><code><span class="title">hexo</span> deploy
-</code></pre><p>现在再github的仓库里去找找，怎么样，你的网站被提交好了吧？</p>
-<p>么。。。关于狗爹，下篇文章再写吧，这篇写的太长了都不好编辑了。</p>
-<p>最后附上hexo文章编辑需要学习的<a href="http://wowubuntu.com/markdown/#link" target="_blank" rel="external">markdown文件的语法说明</a>吧。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/18/大概说说hexo-github-godaddy吧/" data-id="9adbzgaz3kha47ai" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-  
+    <time datetime="2014-10-20T11:49:39.000Z" itemprop="datePublished">Oct 20 2014</time>
+  </a>
 </section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/10/20/多版本并发控制MVCC/" title="多版本并发控制MVCC" itemprop="url">
+  
+    <h1 itemprop="name">多版本并发控制MVCC</h1>
+    
+     
+           <p itemprop="description" >大多数的MySQL事务型存储引擎，如InnoDB，Falcon以及PBXT都不使用一种简单的行锁机制。事实上，他们都和另外一种用来增加并发性的被称为“多版本并发控制（MVCC）”的机制来一起使用。MVCC不只使用在MySQL中，Oracle、PostgreSQL，以及其他一些数据</p>
         
-          <aside id="sidebar">
-  
     
+    <time datetime="2014-10-20T11:33:04.000Z" itemprop="datePublished">Oct 20 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
   
+    <a href="/2014/10/20/sql起源/" title="sql起源" itemprop="url">
+  
+    <h1 itemprop="name">sql起源</h1>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQL2/">SQL2</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQL99/">SQL99</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dns/">dns</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dnspod/">dnspod</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/domain/">domain</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/godaddy/">godaddy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/greatfirewall/">greatfirewall</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/opensource/">opensource</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psql/">psql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sql3/">sql3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sql92/">sql92</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
+     
+           <p itemprop="description" >“SQL” 的名称是 Structured Query Language（结构化查询语言）的缩写。 在 1974 年，Donald Chamberlin 和其他人在 IBM 的研究所定义了语言 SEQUEL （Structured English Query Language）（</p>
+        
+    
+    <time datetime="2014-10-20T11:19:33.000Z" itemprop="datePublished">Oct 20 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/10/20/hello-world/" title="Hello World" itemprop="url">
+  
+    <h1 itemprop="name">Hello World</h1>
+    
+     
+           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the </p>
+        
+    
+    <time datetime="2014-10-20T09:19:58.000Z" itemprop="datePublished">Oct 20 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/" title="将github的空间绑定到狗爹购买的域名上" itemprop="url">
+  
+    <h1 itemprop="name">将github的空间绑定到狗爹购买的域名上</h1>
+    
+     
+           <p itemprop="description" >上一篇文章写了hexo博客的环境搭建以及github的提交，github在你生成仓库之后就分配给你了一个二级域名username.github.io，不过怎么说呢。。。用这种统一的url怎么装逼呢对吧，还是去godaddy买个.com或者.me的域名来装高端吧。（注意：千万别买.</p>
+        
+    
+    <time datetime="2014-10-18T06:18:13.000Z" itemprop="datePublished">Oct 18 2014</time>
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2014/10/18/大概说说hexo-github-godaddy吧/" title="大概说说hexo+github+godaddy吧" itemprop="url">
+  
+    <h1 itemprop="name">大概说说hexo+github+godaddy吧</h1>
+    
+     
+           <p itemprop="description" >既然毕业设计是给hexo做个后台，那总得学学怎么玩hexo吧，网上教程都是hexo+github建站的，照着折腾了几天总算是勉强会用hexo了，现在就来总结一下用hexo建站的过程。
+本人搭环境用的是vmware9+UbuntuKylin 14.04 LTS,说起来下ubuntu</p>
+        
+    
+    <time datetime="2014-10-17T20:18:00.000Z" itemprop="datePublished">Oct 18 2014</time>
+  </a>
+</section>
+
+
+</div>
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
 
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/SQL2/" style="font-size: 10.00px;">SQL2</a><a href="/tags/SQL99/" style="font-size: 10.00px;">SQL99</a><a href="/tags/blog/" style="font-size: 10.00px;">blog</a><a href="/tags/dns/" style="font-size: 10.00px;">dns</a><a href="/tags/dnspod/" style="font-size: 10.00px;">dnspod</a><a href="/tags/domain/" style="font-size: 10.00px;">domain</a><a href="/tags/github/" style="font-size: 20.00px;">github</a><a href="/tags/godaddy/" style="font-size: 10.00px;">godaddy</a><a href="/tags/greatfirewall/" style="font-size: 10.00px;">greatfirewall</a><a href="/tags/hexo/" style="font-size: 10.00px;">hexo</a><a href="/tags/opensource/" style="font-size: 10.00px;">opensource</a><a href="/tags/psql/" style="font-size: 10.00px;">psql</a><a href="/tags/sql3/" style="font-size: 10.00px;">sql3</a><a href="/tags/sql92/" style="font-size: 10.00px;">sql92</a>
-    </div>
-  </div>
 
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">6</span></li></ul>
-    </div>
-  </div>
+<div class="tagslist">
+	<p class="asidetitle">Tags</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/github/" title="github">github<sup>2</sup></a></li>
+		
+			<li><a href="/tags/SQL99/" title="SQL99">SQL99<sup>1</sup></a></li>
+		
+			<li><a href="/tags/SQL2/" title="SQL2">SQL2<sup>1</sup></a></li>
+		
+			<li><a href="/tags/sql92/" title="sql92">sql92<sup>1</sup></a></li>
+		
+			<li><a href="/tags/opensource/" title="opensource">opensource<sup>1</sup></a></li>
+		
+			<li><a href="/tags/psql/" title="psql">psql<sup>1</sup></a></li>
+		
+			<li><a href="/tags/godaddy/" title="godaddy">godaddy<sup>1</sup></a></li>
+		
+			<li><a href="/tags/hexo/" title="hexo">hexo<sup>1</sup></a></li>
+		
+			<li><a href="/tags/dnspod/" title="dnspod">dnspod<sup>1</sup></a></li>
+		
+			<li><a href="/tags/greatfirewall/" title="greatfirewall">greatfirewall<sup>1</sup></a></li>
+		
+			<li><a href="/tags/dns/" title="dns">dns<sup>1</sup></a></li>
+		
+			<li><a href="/tags/domain/" title="domain">domain<sup>1</sup></a></li>
+		
+			<li><a href="/tags/sql3/" title="sql3">sql3<sup>1</sup></a></li>
+		
+			<li><a href="/tags/blog/" title="blog">blog<sup>1</sup></a></li>
+		
+		</ul>
+</div>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2014/10/20/PostgreSQL的特性/">PostgreSQL的特性</a>
-          </li>
-        
-          <li>
-            <a href="/2014/10/20/多版本并发控制MVCC/">多版本并发控制MVCC</a>
-          </li>
-        
-          <li>
-            <a href="/2014/10/20/sql起源/">sql起源</a>
-          </li>
-        
-          <li>
-            <a href="/2014/10/20/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/">将github的空间绑定到狗爹购买的域名上</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
 
-  
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+      <li><a href="http://wuchong.me" target="_blank" title="WuChong">Jark's Blog</a></li>
+      <li><a href="http://hexo.io" target="_blank" title="Hexo">Hexo</a></li>
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS</a>
+</div>
+
 </aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2014 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+</div>
     </div>
-  </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2014 
+		
+		<a href="http://yoursite.com/about" target="_blank" title="John Doe">John Doe</a>
+		
+		</p>
+</div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
 
 
-<script src="/js/script.js" type="text/javascript"></script>
 
 
-  </div>
-</body>
-</html>
+
+
+
+
+
+<div id="totop">
+<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+
+
+
+  </body>
+ </html>
