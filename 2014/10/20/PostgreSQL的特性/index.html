@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: greatfirewall | Hexo</title>
+  <title>PostgreSQL的特性 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/tags/greatfirewall/">
+  <meta name="description" content="PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PostgreSQL的特性">
+<meta property="og:url" content="http://yoursite.com/2014/10/20/PostgreSQL的特性/">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
+<meta property="og:description" content="PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+<meta name="twitter:title" content="PostgreSQL的特性">
+<meta name="twitter:description" content="PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良">
 
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -61,12 +61,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-将github的空间绑定到狗爹购买的域名上" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-PostgreSQL的特性" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/" class="article-date">
-  <time datetime="2014-10-18T06:18:13.000Z" itemprop="datePublished">Oct 18 2014</time>
+    <a href="/2014/10/20/PostgreSQL的特性/" class="article-date">
+  <time datetime="2014-10-20T11:49:39.000Z" itemprop="datePublished">Oct 20 2014</time>
 </a>
     
   </div>
@@ -76,8 +74,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/18/将github的空间绑定到狗爹购买的域名上/">将github的空间绑定到狗爹购买的域名上</a>
+    <h1 class="article-title" itemprop="name">
+      PostgreSQL的特性
     </h1>
   
 
@@ -85,35 +83,38 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>上一篇文章写了hexo博客的环境搭建以及github的提交，github在你生成仓库之后就分配给你了一个二级域名username.github.io，不过怎么说呢。。。用这种统一的url怎么装逼呢对吧，还是去godaddy买个.com或者.me的域名来装高端吧。（<strong>注意：千万别买.info，垃圾站过多不好被收录而且续费相当的贵</strong>)</p>
-<p>狗爹上.com和.me都大概10刀左右一年，不过可以搜优惠码，用优惠码.com的域名9刀就搞定了，还是很便宜的。不过狗爹只有欢迎界面有几句中文，e文不好的同学请自备牛津大砖头或者有道词典完成订单填写和支付过程。（<strong>注意，购买域名时请使用windows系统，国内网银支持linux系统的完全没有</strong>)</p>
-<p>买到域名之后，进入账户，选择manage domains或者在domains下拉列表里选则all doomains。</p>
-<p><img src="/image/alldomains.png" alt=""></p>
-<p>接着在你新购买的域名旁的下拉菜单里选择Set Nameservers选择域名服务器</p>
-<p><img src="/image/godaddymenu.png" alt=""></p>
-<p>域名服务器设置里有两种选项Standard（使用狗爹自己的域名服务器，不建议使用，我第一次买了域名3个小时不到就被伟大的墙给墙了）、Custom（使用自己选择的域名服务器，建议使用这个)</p>
-<p><img src="/image/nameserver.png" alt=""></p>
-<p>nameserver设置里输入国内的域名服务提供的服务器吧，我用的是dnspod的服务器，dnspod最大的优势是免费，如果有土豪不屑于免费dns服务的话请随便找一家，并在这里填上该域名服务提供商的服务器名字。</p>
-<p>到此狗爹的配置就完成了，接下来进入域名服务提供商的管理界面，我会介绍dnspod的设置方法，不过其实域名解析这套都大同小异,会了一个就基本都学会了。</p>
-<p>在<www.dnspod.cn>注册账户，登陆后添加域名，告诉dnspod我们把哪个域名的域名服务器设置给它了，接着点击域名进入域名解析管理，添加两个A类型的记录host分别是@和www，也就是把你的域名和www.你的域名都指向github的ip，githup的ip可以通过windows的ping命令得到，ping下username.github.io，是不是看到出现一个ip了？就是它，复制粘贴到新加两条记录的纪录值里，over。</www.dnspod.cn></p>
-<p>最后配置github，告诉它我们把哪个域名指向了我们的博客，相当简单，再网站放写的文章的source目录下新建一个CNAME文件，里面的内容就是我们买的域名，hexo generate再deploy到github上，完事。</p>
+        <p>PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良好的可扩展性，对并发用户管理具有自适应性。现在已经出现具有管理超过4万亿字节数据能力的实用版本产品。</p>
+<p>开放特性：PostgreSQL内置了丰富的数据类型，如任意精度的数值、无限制长度的文本、几何图元、IP地址、数组等；同时还允许用户定义基于正规SQL类型的新类型，让数据库自身理解复杂数据，自定义类型中还可以包含继承关系。用户可以为数据库内几乎所有的对象定义新的类型，如索引、操作符（可重载现有操作符）、聚集函数、数据域、数据类型转换、会话（编码转换）等。</p>
+<p>可编程性：PostgreSQL同样拥有大量的编程接口供用户开发使用，如ODBC、JDBC（Java）、Libpq（C/C++）等。</p>
+<p>可定制性：PostgreSQL拥有广泛的编程语言支持来实现函数功能，包括内置的PL/pgSQL过程语言，PL/Perl、plPHP、PL/Python、PL/Ruby、PL/Tcl等脚本语言，以及Java、C/C++等高级编程语言。函数的输出是一系列行类型的集合，可以在查询中当做表来使用，函数也可以被定义成以创建者或者调用者的身份运行。在其他的数据库产品中，函数也会被称为“存储过程”。</p>
+<p>索引手段：用户可以自定义索引方法或者使用内置B-Tree索引、Hash表索引、GiST索引、GIN索引。GiST索引不是某种特定的索引类型，而是一种通用索引基础结构，可以在这种结构上实现很多不同的索引策略。PostgreSQL同时还支持如下功能：反向索引检索、表达式索引、部分索引、位图索引扫描。</p>
+<p>多种身份认证方式：PostgreSQL中可以使用数据库用户/角色、操作系统、PAM、Kerberos等方式，根据主机配置文件（pg_hba.conf）中的设置执行对应的身份认证。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/18/将github的空间绑定到狗爹购买的域名上/" data-id="sxs7v3hfi79scniw" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2014/10/20/PostgreSQL的特性/" data-id="pf7br6otiq961ywo" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dns/">dns</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dnspod/">dnspod</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/domain/">domain</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/godaddy/">godaddy</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/greatfirewall/">greatfirewall</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/opensource/">opensource</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/psql/">psql</a></li></ul>
 
     </footer>
   </div>
   
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2014/10/20/多版本并发控制MVCC/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">多版本并发控制MVCC</div>
+    </a>
+  
+</nav>
+
+  
 </article>
 
-
-  
-  
 </section>
         
           <aside id="sidebar">

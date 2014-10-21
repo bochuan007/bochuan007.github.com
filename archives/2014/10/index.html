@@ -65,19 +65,27 @@
   
     <article id="post-PostgreSQL的特性" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/10/21/PostgreSQL的特性/" class="article-date">
-  <time datetime="2014-10-21T05:45:55.000Z" itemprop="datePublished">Oct 21 2014</time>
+    <a href="/2014/10/20/PostgreSQL的特性/" class="article-date">
+  <time datetime="2014-10-20T11:49:39.000Z" itemprop="datePublished">Oct 20 2014</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/10/20/PostgreSQL的特性/">PostgreSQL的特性</a>
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>title: PostgreSQL的特性<br>date: 2014-10-20 19:49:39</p>
-<h2 id="tags:[psql,_opensource]">tags:[psql, opensource]</h2>
-<p>PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良好的可扩展性，对并发用户管理具有自适应性。现在已经出现具有管理超过4万亿字节数据能力的实用版本产品。</p>
+        <p>PostgreSQL是一种几乎可以运行在各种平台上的免费的开放源码的对象关系数据库管理系统，拥有与企业级数据库相媲美的特性，如完善的SQL标准支持、多版本并发控制、时间点恢复、表空间机制、异步复制、嵌套事务、在线/热备份、一个复杂的查询优化器、预写日志容错技术。它支持国际字符集、多字节字符编码、Unicode，并且对格式化、排序、大小写敏感提供本地化支持。PostgreSQL在管理大数据量方面有良好的可扩展性，对并发用户管理具有自适应性。现在已经出现具有管理超过4万亿字节数据能力的实用版本产品。</p>
 <p>开放特性：PostgreSQL内置了丰富的数据类型，如任意精度的数值、无限制长度的文本、几何图元、IP地址、数组等；同时还允许用户定义基于正规SQL类型的新类型，让数据库自身理解复杂数据，自定义类型中还可以包含继承关系。用户可以为数据库内几乎所有的对象定义新的类型，如索引、操作符（可重载现有操作符）、聚集函数、数据域、数据类型转换、会话（编码转换）等。</p>
 <p>可编程性：PostgreSQL同样拥有大量的编程接口供用户开发使用，如ODBC、JDBC（Java）、Libpq（C/C++）等。</p>
 <p>可定制性：PostgreSQL拥有广泛的编程语言支持来实现函数功能，包括内置的PL/pgSQL过程语言，PL/Perl、plPHP、PL/Python、PL/Ruby、PL/Tcl等脚本语言，以及Java、C/C++等高级编程语言。函数的输出是一系列行类型的集合，可以在查询中当做表来使用，函数也可以被定义成以创建者或者调用者的身份运行。在其他的数据库产品中，函数也会被称为“存储过程”。</p>
@@ -87,81 +95,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/21/PostgreSQL的特性/" data-id="pf7br6otiq961ywo" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2014/10/20/PostgreSQL的特性/" data-id="pf7br6otiq961ywo" class="article-share-link">Share</a>
       
       
-    </footer>
-  </div>
-  
-</article>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/opensource/">opensource</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/psql/">psql</a></li></ul>
 
-
-  
-    <article id="post-sql起源" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/10/21/sql起源/" class="article-date">
-  <time datetime="2014-10-21T05:45:26.000Z" itemprop="datePublished">Oct 21 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>title: sql起源<br>date: 2014-10-20 19:19:33</p>
-<h2 id="tags:[sql92,_SQL2,_SQL99,_sql3]">tags:[sql92, SQL2, SQL99, sql3]</h2>
-<p>“SQL” 的名称是 Structured Query Language（结构化查询语言）的缩写。 在 1974 年，Donald Chamberlin 和其他人在 IBM 的研究所定义了语言 SEQUEL （Structured English Query Language）（结构化英语查询语言）。 这种语言在 1974-75 年首先在一种叫 SEUEL-XRM 的 IBM 的原型里面实现。 到了1976-77 年，定义了一种叫 SEQUEL/2 的 SEQUEL 改进版， 并且名称也因此改成 SQL。 </p>
-<p>在 1977 年，IBM 开发了一种新的叫 System R 的原型语言。 System R 实现了 SEQUEL/2 （现在的 SQL）的很大一部分子集，并且在项目过程中对 SQL 做了许多修改。 System R 被安装到了许多用户节点上， 包括 IBM 的节点和许多经过选择的客户节点上。 多亏了在 System R 那些用户节点上的成功，IBM 开始开发基于 System R 技术的 SQL 语言的商业产品。 </p>
-<p>再过了一年，IBM 和许多其他提供商宣布了许多 SQL 产品，例如 SQL/DS（IBM）， DB2（IBM）， ORACLE（Oracle Corp.）， DG/SQL（Data General Corp.）， 和 SYBASE（Sybase Inc.）． </p>
-<p>SQL 现在还是一个官方标准。在 1982 年，美国国家标准局 （ANSI）公布了数据库委员会宪章（DatabaseCommittee）X3H2， 建议发展一种标准的关系语言。 这个建议在 1986 年被批准并且认为实际上就是 IBM 版本的 SQL。在 1987 年，这个ANSI 标准也被国际标准化组织 （ISO）接受为国际标准。这个最初的 SQL 版本的标准经常非正式的被称为 “SQL/86”． 到了 1989 年，对那个最初的标准进行了扩展， 并且这个新的标准被经常地非正式的称为”SQL/89”。 同样在 1989 年，一个相关的标准，发展了称之为 数据库语言嵌入SQL （Database LanguageEmbedded SQL） （ESQL）。 </p>
-<p>ISO 和 ANSI 委员会已经在一个大大地扩展了最初的标准的新版本的定义上工作了好几年， 常被非正式的称之为 SQL2 和 SQL/92 。这个版本成为一个批准了的标准 - “International Standard ISO/IEC 9075:1992, Database Language SQL - 在1992 年晚些时候。 SQL/92 通常是人们说 “SQL标准” 时所指的版本。在 Date and Darwen, 1997里有 SQL/92 详细的描述。</p>
-<p>SQL99是数据库的一个ANSI/ISO标准。这个标准的前身是SQL92 ANSI/ISO标准，而SQL92之前还有一个SQL89 ANSI/ISO标准。它定义了一种语言（SQL）以及数据库的行为（事务、隔离级别等）。你知道许多商业数据库至少在某种程度上是符合SQL99的吗？不过，这对于查询和应用的可移植性没有多大的意义，这一点你也清楚吗？</p>
-<p>SQL92标准有4个层次：</p>
-<p>q 入门级（Entry level）。这是大多数开发商符合的级别。这一级只是对前一个标准SQL89稍做修改。所有数据库开发商都不会有更高的级别，实际上，美国国家标准和技术协会NIST（National Institute of Standards and Technology，这是一家专门检验SQL合规性的机构）除了验证入门级外，甚至不做其他的验证。Oracle 7.0于1993年通过了NIST的SQL92入门级合规性验证，那时我也是小组中的一个成员。如果一个数据库符合入门级，它的特性集则是Oracle 7.0的一个功能子集。</p>
-<ul>
-<li>q 过渡级。这一级在特性集方面大致介于入门级和中间级之间。</li>
-<li>q 中间级。这一级增加了许多特性，包括（以下所列并不完整）：</li>
-<li>n 动态SQL</li>
-<li>n 级联DELETE以保证引用完整性</li>
-<li>n DATE和TIME数据类型</li>
-<li>n 域</li>
-<li>n 变长字符串</li>
-<li>n CASE表达式</li>
-<li>n 数据类型之间的CAST函数</li>
-<li>q 完备级。增加了以下特性（同样，这个列表也不完整）：</li>
-<li>n 连接管理</li>
-<li>n BIT串数据类型</li>
-<li>n 可延迟的完整性约束</li>
-<li>n FROM子句中的导出表</li>
-<li>n CHECK子句中的子查询</li>
-<li>n 临时表<br>入门级标准不包括诸如外联结（outer join）、新的内联结（inner join）语法等特性。</li>
-</ul>
-<p>过渡级则指定了外联结语法和内联结语法。</p>
-<p>中间级增加了更多的特性，当然，完备级就是SQL92全部。有关SQL92的大多数书都没有区别这些级别，这就会带来混淆。这些书只是说明了一个完整实现SQL92的理论数据库会是什么样子。所以无论你拿起哪一本书，都无法将书中所学直接应用到任何SQL92数据库上。关键是，SQL92最多只达到入门级，如果你使用了中间级或更高级里的特性，就存在无法“移植”应用的风险。</p>
-<p>SQL99只定义了两级一致性：核心（core）一致性和增强（enhanced）一致性。SQL99力图远远超越传统的“SQL”，并引入了一些对象—关系构造（数组、集合等）。它包括SQL MM（多媒体，multimedia）类型、对象—关系类型等。还没有哪个开发商的数据库经认证符合SQL99核心级或增强级，实际上，据我所知，甚至没有哪个开发商声称他们的产品完全达到了某级一致性。</p>
-<p>对于不同的数据库来说，SQL语法可能存在差异，实现有所不同，同一个查询在不同数据库中的性能也不一样，不仅如此，还存在并发控制、隔离级别、查询一致性等问题。我们将在第7章详细讨论这些问题，并介绍不同数据库的差异对你会有什么影响。</p>
-<p>SQL92/SQL99试图对事务应如何工作以及隔离级别如何实现给出一个明确的定义，但最终，不同的数据库还是有不同的结果。这都是具体实现所致。在一个数据库中，某个应用可能会死锁并完全阻塞。但在另一个数据库中，同样是这个应用，这些问题却有可能不会发生，应用能平稳地运行。在一个数据库中，你可能利用了阻塞（物理串行化），但在另一个数据库上部署时，由于这个数据库不会阻塞，你就会得到错误的答案。要将一个应用部署在另一个数据库上，需要花费大量的精力，付出艰辛的劳动，即使你100%地遵循标准也不例外。</p>
-<p>关键是，不要害怕使用开发商特有的特性，毕竟，你为这些特性花了钱。每个数据库都有自己的一套“技巧”，在每个数据库中总能找到一种完成操作的好办法。要使用最适合当前数据库的做法，移植到其他数据库时再重新实现。要使用合适的编程技术，从而与这些修改隔离，我把这称为防御式编程（defensive programming）。</p>
-<p>时态数据查询语言[编辑]<br>目前，时态数据查询语言主要由下述三种类型。</p>
-<p>TempSQL[编辑]</p>
-<p>TempSQL是在1985年由S.Gadia和S.Nair提出，作为一种类SQL的时态数据库查询语言，TempSQL引入了双时态机制，数据库可以对数据本身历史（有效时间）、对数据进行插入、删除和更新等的历史（事务时间）、数据库和用户出错的历史等进行管理。TempSQL保持时态数据与静态数据的无缝连接，而将快照数据看做是时间标签为[now,now]的一个特例。 在TempSQL中，元组中主键属性（例如学生信息元组中的学号属性）不能随时间变化，而非主键属性（例如学生元组中“住址”、“年龄”和“联系方式”等属性）在不同时间内可以有不同取值。</p>
-<p>TQuel[编辑]</p>
-<p>TQuel是在1985年由R.Snodgrass提出，是一种基于双时态的数据库查询语言。作为Quel（早期的一种非时态数据库查询语言）的时态扩展扩展（同时支持有效时间和事务时间管理，并且认为两者是相互独立和彼此正交），TQuel保持了Quel的基本风格，同时引进了各种基本时态关键词，例如as-of，overlap、first，last和endof等</p>
-<p>TSQL2[编辑]</p>
-<p>TSQL2是第一个尝试采用规范标准的时态数据查询语言，可以看做是SQL-92标准的时态扩充。TSQL2自1994年开始，R.Snodgrass等与ASNI和ISSQL3委员会研究合作，提出了SQL3的时态部分SQL/Temporal，其目标就是将TSQL2作为SQL/Temporal的标准。TSQL2是时态数据库标准化过程中重要语言。TSQL2时态关系分为如下6类：</p>
-<p>快照关系：其特点是没有时间标签。</p>
-<p>有效时间状态关系，其说明语句为AS valid[state]。其中state是默认值，选和不选具有同样效果，即表示相应关系是有效时间状态关系。</p>
-<p>有效时间事务关系，其说明语句为AS VALID EVENT，表示事件发生在某一时刻，而此时有效时间为时刻集合。<br>事务时间关系 其表示语句为AS TRANSACTION，说明该关系中只具有事务时间。</p>
-<p>双时态状态关系 其说明语句为as valid[state] and transaction，其中有效时间为状态发生保持的时间期间。</p>
-<p>双时态事件关系 其说明语句为as valid event and TRANSACTION。和双时态状态关系不同，其中有效时间描述的是关系表示的事件发生时刻的集合。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/21/sql起源/" data-id="gt9jff8jun8ehsa4" class="article-share-link">Share</a>
-      
-      
     </footer>
   </div>
   
@@ -225,6 +163,88 @@
       <a data-url="http://yoursite.com/2014/10/20/多版本并发控制MVCC/" data-id="8xykd68yr0k4qnob" class="article-share-link">Share</a>
       
       
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sql起源" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/10/20/sql起源/" class="article-date">
+  <time datetime="2014-10-20T11:19:33.000Z" itemprop="datePublished">Oct 20 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/10/20/sql起源/">sql起源</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>“SQL” 的名称是 Structured Query Language（结构化查询语言）的缩写。 在 1974 年，Donald Chamberlin 和其他人在 IBM 的研究所定义了语言 SEQUEL （Structured English Query Language）（结构化英语查询语言）。 这种语言在 1974-75 年首先在一种叫 SEUEL-XRM 的 IBM 的原型里面实现。 到了1976-77 年，定义了一种叫 SEQUEL/2 的 SEQUEL 改进版， 并且名称也因此改成 SQL。 </p>
+<p>在 1977 年，IBM 开发了一种新的叫 System R 的原型语言。 System R 实现了 SEQUEL/2 （现在的 SQL）的很大一部分子集，并且在项目过程中对 SQL 做了许多修改。 System R 被安装到了许多用户节点上， 包括 IBM 的节点和许多经过选择的客户节点上。 多亏了在 System R 那些用户节点上的成功，IBM 开始开发基于 System R 技术的 SQL 语言的商业产品。 </p>
+<p>再过了一年，IBM 和许多其他提供商宣布了许多 SQL 产品，例如 SQL/DS（IBM）， DB2（IBM）， ORACLE（Oracle Corp.）， DG/SQL（Data General Corp.）， 和 SYBASE（Sybase Inc.）． </p>
+<p>SQL 现在还是一个官方标准。在 1982 年，美国国家标准局 （ANSI）公布了数据库委员会宪章（DatabaseCommittee）X3H2， 建议发展一种标准的关系语言。 这个建议在 1986 年被批准并且认为实际上就是 IBM 版本的 SQL。在 1987 年，这个ANSI 标准也被国际标准化组织 （ISO）接受为国际标准。这个最初的 SQL 版本的标准经常非正式的被称为 “SQL/86”． 到了 1989 年，对那个最初的标准进行了扩展， 并且这个新的标准被经常地非正式的称为”SQL/89”。 同样在 1989 年，一个相关的标准，发展了称之为 数据库语言嵌入SQL （Database LanguageEmbedded SQL） （ESQL）。 </p>
+<p>ISO 和 ANSI 委员会已经在一个大大地扩展了最初的标准的新版本的定义上工作了好几年， 常被非正式的称之为 SQL2 和 SQL/92 。这个版本成为一个批准了的标准 - “International Standard ISO/IEC 9075:1992, Database Language SQL - 在1992 年晚些时候。 SQL/92 通常是人们说 “SQL标准” 时所指的版本。在 Date and Darwen, 1997里有 SQL/92 详细的描述。</p>
+<p>SQL99是数据库的一个ANSI/ISO标准。这个标准的前身是SQL92 ANSI/ISO标准，而SQL92之前还有一个SQL89 ANSI/ISO标准。它定义了一种语言（SQL）以及数据库的行为（事务、隔离级别等）。你知道许多商业数据库至少在某种程度上是符合SQL99的吗？不过，这对于查询和应用的可移植性没有多大的意义，这一点你也清楚吗？</p>
+<p>SQL92标准有4个层次：</p>
+<p>q 入门级（Entry level）。这是大多数开发商符合的级别。这一级只是对前一个标准SQL89稍做修改。所有数据库开发商都不会有更高的级别，实际上，美国国家标准和技术协会NIST（National Institute of Standards and Technology，这是一家专门检验SQL合规性的机构）除了验证入门级外，甚至不做其他的验证。Oracle 7.0于1993年通过了NIST的SQL92入门级合规性验证，那时我也是小组中的一个成员。如果一个数据库符合入门级，它的特性集则是Oracle 7.0的一个功能子集。</p>
+<ul>
+<li>q 过渡级。这一级在特性集方面大致介于入门级和中间级之间。</li>
+<li>q 中间级。这一级增加了许多特性，包括（以下所列并不完整）：</li>
+<li>n 动态SQL</li>
+<li>n 级联DELETE以保证引用完整性</li>
+<li>n DATE和TIME数据类型</li>
+<li>n 域</li>
+<li>n 变长字符串</li>
+<li>n CASE表达式</li>
+<li>n 数据类型之间的CAST函数</li>
+<li>q 完备级。增加了以下特性（同样，这个列表也不完整）：</li>
+<li>n 连接管理</li>
+<li>n BIT串数据类型</li>
+<li>n 可延迟的完整性约束</li>
+<li>n FROM子句中的导出表</li>
+<li>n CHECK子句中的子查询</li>
+<li>n 临时表<br>入门级标准不包括诸如外联结（outer join）、新的内联结（inner join）语法等特性。</li>
+</ul>
+<p>过渡级则指定了外联结语法和内联结语法。</p>
+<p>中间级增加了更多的特性，当然，完备级就是SQL92全部。有关SQL92的大多数书都没有区别这些级别，这就会带来混淆。这些书只是说明了一个完整实现SQL92的理论数据库会是什么样子。所以无论你拿起哪一本书，都无法将书中所学直接应用到任何SQL92数据库上。关键是，SQL92最多只达到入门级，如果你使用了中间级或更高级里的特性，就存在无法“移植”应用的风险。</p>
+<p>SQL99只定义了两级一致性：核心（core）一致性和增强（enhanced）一致性。SQL99力图远远超越传统的“SQL”，并引入了一些对象—关系构造（数组、集合等）。它包括SQL MM（多媒体，multimedia）类型、对象—关系类型等。还没有哪个开发商的数据库经认证符合SQL99核心级或增强级，实际上，据我所知，甚至没有哪个开发商声称他们的产品完全达到了某级一致性。</p>
+<p>对于不同的数据库来说，SQL语法可能存在差异，实现有所不同，同一个查询在不同数据库中的性能也不一样，不仅如此，还存在并发控制、隔离级别、查询一致性等问题。我们将在第7章详细讨论这些问题，并介绍不同数据库的差异对你会有什么影响。</p>
+<p>SQL92/SQL99试图对事务应如何工作以及隔离级别如何实现给出一个明确的定义，但最终，不同的数据库还是有不同的结果。这都是具体实现所致。在一个数据库中，某个应用可能会死锁并完全阻塞。但在另一个数据库中，同样是这个应用，这些问题却有可能不会发生，应用能平稳地运行。在一个数据库中，你可能利用了阻塞（物理串行化），但在另一个数据库上部署时，由于这个数据库不会阻塞，你就会得到错误的答案。要将一个应用部署在另一个数据库上，需要花费大量的精力，付出艰辛的劳动，即使你100%地遵循标准也不例外。</p>
+<p>关键是，不要害怕使用开发商特有的特性，毕竟，你为这些特性花了钱。每个数据库都有自己的一套“技巧”，在每个数据库中总能找到一种完成操作的好办法。要使用最适合当前数据库的做法，移植到其他数据库时再重新实现。要使用合适的编程技术，从而与这些修改隔离，我把这称为防御式编程（defensive programming）。</p>
+<p>时态数据查询语言[编辑]<br>目前，时态数据查询语言主要由下述三种类型。</p>
+<p>TempSQL[编辑]</p>
+<p>TempSQL是在1985年由S.Gadia和S.Nair提出，作为一种类SQL的时态数据库查询语言，TempSQL引入了双时态机制，数据库可以对数据本身历史（有效时间）、对数据进行插入、删除和更新等的历史（事务时间）、数据库和用户出错的历史等进行管理。TempSQL保持时态数据与静态数据的无缝连接，而将快照数据看做是时间标签为[now,now]的一个特例。 在TempSQL中，元组中主键属性（例如学生信息元组中的学号属性）不能随时间变化，而非主键属性（例如学生元组中“住址”、“年龄”和“联系方式”等属性）在不同时间内可以有不同取值。</p>
+<p>TQuel[编辑]</p>
+<p>TQuel是在1985年由R.Snodgrass提出，是一种基于双时态的数据库查询语言。作为Quel（早期的一种非时态数据库查询语言）的时态扩展扩展（同时支持有效时间和事务时间管理，并且认为两者是相互独立和彼此正交），TQuel保持了Quel的基本风格，同时引进了各种基本时态关键词，例如as-of，overlap、first，last和endof等</p>
+<p>TSQL2[编辑]</p>
+<p>TSQL2是第一个尝试采用规范标准的时态数据查询语言，可以看做是SQL-92标准的时态扩充。TSQL2自1994年开始，R.Snodgrass等与ASNI和ISSQL3委员会研究合作，提出了SQL3的时态部分SQL/Temporal，其目标就是将TSQL2作为SQL/Temporal的标准。TSQL2是时态数据库标准化过程中重要语言。TSQL2时态关系分为如下6类：</p>
+<p>快照关系：其特点是没有时间标签。</p>
+<p>有效时间状态关系，其说明语句为AS valid[state]。其中state是默认值，选和不选具有同样效果，即表示相应关系是有效时间状态关系。</p>
+<p>有效时间事务关系，其说明语句为AS VALID EVENT，表示事件发生在某一时刻，而此时有效时间为时刻集合。<br>事务时间关系 其表示语句为AS TRANSACTION，说明该关系中只具有事务时间。</p>
+<p>双时态状态关系 其说明语句为as valid[state] and transaction，其中有效时间为状态发生保持的时间期间。</p>
+<p>双时态事件关系 其说明语句为as valid event and TRANSACTION。和双时态状态关系不同，其中有效时间描述的是关系表示的事件发生时刻的集合。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/10/20/sql起源/" data-id="gt9jff8jun8ehsa4" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL2/">SQL2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQL99/">SQL99</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql3/">sql3</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql92/">sql92</a></li></ul>
+
     </footer>
   </div>
   
@@ -450,7 +470,7 @@ git config --global <span class="literal">user</span>.email <span class="string"
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dns/">dns</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dnspod/">dnspod</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/domain/">domain</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/godaddy/">godaddy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/greatfirewall/">greatfirewall</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQL2/">SQL2</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQL99/">SQL99</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dns/">dns</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dnspod/">dnspod</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/domain/">domain</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/godaddy/">godaddy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/greatfirewall/">greatfirewall</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/opensource/">opensource</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psql/">psql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sql3/">sql3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sql92/">sql92</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -459,7 +479,7 @@ git config --global <span class="literal">user</span>.email <span class="string"
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/blog/" style="font-size: 10.00px;">blog</a><a href="/tags/dns/" style="font-size: 10.00px;">dns</a><a href="/tags/dnspod/" style="font-size: 10.00px;">dnspod</a><a href="/tags/domain/" style="font-size: 10.00px;">domain</a><a href="/tags/github/" style="font-size: 20.00px;">github</a><a href="/tags/godaddy/" style="font-size: 10.00px;">godaddy</a><a href="/tags/greatfirewall/" style="font-size: 10.00px;">greatfirewall</a><a href="/tags/hexo/" style="font-size: 10.00px;">hexo</a>
+      <a href="/tags/SQL2/" style="font-size: 10.00px;">SQL2</a><a href="/tags/SQL99/" style="font-size: 10.00px;">SQL99</a><a href="/tags/blog/" style="font-size: 10.00px;">blog</a><a href="/tags/dns/" style="font-size: 10.00px;">dns</a><a href="/tags/dnspod/" style="font-size: 10.00px;">dnspod</a><a href="/tags/domain/" style="font-size: 10.00px;">domain</a><a href="/tags/github/" style="font-size: 20.00px;">github</a><a href="/tags/godaddy/" style="font-size: 10.00px;">godaddy</a><a href="/tags/greatfirewall/" style="font-size: 10.00px;">greatfirewall</a><a href="/tags/hexo/" style="font-size: 10.00px;">hexo</a><a href="/tags/opensource/" style="font-size: 10.00px;">opensource</a><a href="/tags/psql/" style="font-size: 10.00px;">psql</a><a href="/tags/sql3/" style="font-size: 10.00px;">sql3</a><a href="/tags/sql92/" style="font-size: 10.00px;">sql92</a>
     </div>
   </div>
 
@@ -480,15 +500,15 @@ git config --global <span class="literal">user</span>.email <span class="string"
       <ul>
         
           <li>
-            <a href="/2014/10/21/PostgreSQL的特性/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2014/10/21/sql起源/">(no title)</a>
+            <a href="/2014/10/20/PostgreSQL的特性/">PostgreSQL的特性</a>
           </li>
         
           <li>
             <a href="/2014/10/20/多版本并发控制MVCC/">多版本并发控制MVCC</a>
+          </li>
+        
+          <li>
+            <a href="/2014/10/20/sql起源/">sql起源</a>
           </li>
         
           <li>
